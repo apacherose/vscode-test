@@ -1,5 +1,6 @@
 import * as React from "react";
+import './foo.css';
 
 export default function Foo() {
-  return <pre>I am Foo!</pre>;
+  return <pre className="foo">I am Foo!</pre>;
 };

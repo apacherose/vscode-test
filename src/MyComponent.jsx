@@ -1,7 +1,7 @@
 import Loadable from 'react-loadable';
 import * as React from 'react';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
-//import './site.css';
+import  './site.css';
 
 function Loading() {
   return <span>Loading...</span>;

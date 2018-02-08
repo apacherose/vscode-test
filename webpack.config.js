@@ -14,16 +14,13 @@ module.exports = {
         query: {
             presets: ['react', 'es2015']
         }
-      }
-    ],
-    /* rules: [
+      },
       {
         test: /\.css$/,
-        include: '/css/',
-        exclude: '/src/',
-        use: [ 'style-loader', 'css-loader' ]
+        exclude: /node_modules/,
+        loaders:['style-loader', 'css-loader']
       }
-    ] */
+    ]
   },
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx']
