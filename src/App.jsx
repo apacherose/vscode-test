@@ -4,7 +4,7 @@ import MyComponent from './MyComponent';
 export default class App extends React.Component {
   render () {
     return <section>
-        Hello React project
+        Hello React project   1
         <MyComponent />
       </section>;
   }
